@@ -1,0 +1,23 @@
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    height: 100px;
+    width: 30%;
+}
+
+.table {
+    height: 100%;
+    width: 49%;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.table2 {
+    height: 100%;
+    width: 24%;
+    text-align: center;
+    background-color: aquamarine;
+    cursor: pointer;
+
+}
