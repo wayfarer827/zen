@@ -1,0 +1,12 @@
+.game-zone {
+    position: relative;
+    background-color: aqua;
+}
+
+
+.player {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+}

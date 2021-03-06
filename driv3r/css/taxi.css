@@ -1,0 +1,180 @@
+@font-face {
+    font-family: '80';
+    src: url(fonts/BACKTO1982.TTF);
+}
+
+@font-face {
+    font-family: 'retro';
+    src: url(fonts/retro.ttf);
+}
+
+@font-face {
+    font-family: 'logo';
+    src: url(fonts/VampireWarsItalic-lgg8q.ttf);
+}
+
+/* GENERAL */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(156, 13, 212);
+    font-family: 'retro';
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+  }
+
+/* INTERFACE-INFO */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-size: 30px;
+}
+
+.logo {
+    text-align: center;
+    font-family: 'logo';
+    font-size: 90px;
+    color: white;
+    text-shadow: 5px 0 0 red,
+    3px 5px 0 blue;
+    animation: glitch 5000ms infinite;
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 2px 0 0 red,
+        -2px 1px 0 blue;
+    }
+    15% {
+        text-shadow: -4px 4px 0 red,
+        2px 0 0 blue;
+    }
+    50% {
+        text-shadow: 5px -2px 0 red,
+        3px 5px 0 blue;
+    }
+    100% {
+        text-shadow: 5px 3px 0 red,
+        -2px -2px 0 blue;
+    }
+
+}
+
+.interface-car-auto {
+    display: flex;
+    align-items: flex-end;
+}
+
+.interface-info-cars {
+    margin-top: 250px;
+}
+
+.interface-info-cars-auto {
+    width: 400px;
+    height: 150px;
+}
+
+.swiper-slide-auto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.trip-button {
+    position: absolute;
+    top: 170px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.trip-button {
+    position: absolute;
+    top: 170px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+/* INTERFACE */
+
+.interface {
+    display: flex;
+    justify-content: space-between;
+}
+
+.interface-active {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20%;
+    width: 50%;
+}
+
+.interface-passive {
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.interface-active-element {
+    text-align: center;
+}
+
+.interface-active-element-info {
+    margin-top: 30px;
+}
+
+.action-icon {
+    height: 100px;
+}
+
+.st0:hover {
+    fill: #ff15a5;
+}
+
+button {
+    color: white;
+    padding: 10px 15px;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-family: '80';
+}
+
+button:hover {
+    color: #ff15a5;
+}
+
+button:active {
+    color: #94075e;
+    outline: none;
+}
+
+button:active {
+    color: #94075e;
+    outline: none;
+}
+
+.driver {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    width: 20%; 
+}
